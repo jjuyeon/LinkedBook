@@ -1,4 +1,4 @@
-# 대전 B307 LinkedBook 시연 시나리오
+# LinkedBook 시연 시나리오
 
 ### 1. 회원가입
 <table>
