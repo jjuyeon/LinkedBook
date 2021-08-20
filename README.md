@@ -2,8 +2,8 @@
 <hr>
 
 ## :bulb: Contributor
-### Frontend: 김민환, 남하은, 변대웅
-### Backend: 조원식, 진수연
+### Frontend: [김민환](https://github.com/kimmeh4), [남하은](https://github.com/haeunnam), [변대웅](https://github.com/DaewoongByun)
+### Backend: [조원식](https://github.com/chowonsik), [진수연](https://github.com/jjuyeon)
 
 <br>
 
@@ -131,11 +131,11 @@
 #### 2-1. Commit Message Format
 - 모든 커밋 메시지는 다음과 같은 형식을 **반드시** 따르도록 한다.
 ```
-<type>: <message> (<issue number>)
-```
-- ex) <br> `feat: Add user login api (S05P12B307-0)`
-<br> `fix: Fix bug to can't login using google login (S05P12B307-0)`
-<br> `docs: Update README.md`
+<type>: <message> (#<issue number>)
+````
+- ex) <br> feat: Add user login api (#0)
+<br> fix: Fix bug to can't login using google login (#0)
+<br> docs: Update README.md
 
 #### 2-2. Type
 |type|description|
@@ -151,21 +151,3 @@
 #### 2-4. Issue number
 - 커밋과 관련된 이슈는 커밋 메시지 마지막에 **반드시** 연결하도록 한다.
 - 지라에 등록된 이슈와 연동되도록 한다.
-
-### 3. git Merge Request 
-- `git pull origin develop`을 통해 최신 버전을 다운받는다.
-- 로컬에서 새로운 브랜치를 생성한다.
-  - `git switch -c feature/#이슈번호`
-  - ex) `git switch -c feature/#26` 
-  - 위의 명령은 새로운 브랜치 `feature/#26`을 생성하고 해당 브랜치로 이동하는 명령이다
-- 로컬에서 작업한 것을 해당 브랜치에 업로드한다.
-- `git status` : 변경사항 확인
-- `git add .` -> `git commit -m 'feat: <커밋 메시지> (S05P12B307-26)'`
-  - `S05P12B307-26`은 JIRA <-> GITLAB 연동을 위한 이슈 번호
-  - JIRA 접속 후 각각의 이슈에서 확인 가능
-- `git push origin feature/#26`
-- `add` -> `commit` -> `push` 완료 후 `gitlab`의 원격저장소에 접속한다.
-- 본인이 push한 커밋에 대해 `Merge Request`를 생성한다.
-- 생성 후에 **develop** 브랜치로 **Merge**되는지 확인한다.
-  - 맨 윗 부분에 `into develop`인지 확인
-- 이후 충돌이 있다면 충돌 해결하고 `Merge`버튼을 클릭한다.
