@@ -194,6 +194,23 @@ export const QualityContainer = styled.div`
 
 export const TextContainer = styled.div`
   margin-top: 20px;
+  .price-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .title {
+      font-size: ${fonts.md};
+      display: flex;
+      align-items: center;
+    }
+    input {
+      width: 80%;
+      margin-bottom: 0;
+      text-align: end;
+      padding: 0 16px 0 16px;
+      background-color: white;
+    }
+  }
   input {
     width: 100%;
     height: 45px;

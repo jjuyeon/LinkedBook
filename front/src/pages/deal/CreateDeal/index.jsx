@@ -531,12 +531,15 @@ export default function CreateDeal() {
           </div>
         </QualityContainer>
         <TextContainer>
-          <input
-            type="text"
-            placeholder="가격"
-            value={priceToString(dealPrice.value)}
-            readOnly
-          />
+          <div className="price-container">
+            <div className="title">가격</div>
+            <input
+              type="text"
+              placeholder="가격"
+              value={`${priceToString(dealPrice.value)} 원`}
+              readOnly
+            />
+          </div>
           <input
             type="text"
             placeholder="글 제목"

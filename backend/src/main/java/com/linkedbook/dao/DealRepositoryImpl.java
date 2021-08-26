@@ -91,7 +91,7 @@ public class DealRepositoryImpl implements DealRepositoryCustom {
         if (StringUtils.isEmpty(search)) {
             return null;
         }
-        return dealDB.title.contains(search);
+        return bookDB.title.contains(search).or(dealDB.title.contains(search));
     }
 
     private BooleanExpression eqUserId(Integer userId) {
