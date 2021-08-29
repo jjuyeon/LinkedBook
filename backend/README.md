@@ -22,7 +22,7 @@
 ### 1. Clone this repository
 ```
 // 레포지토리 클론
-$ git clone <https://lab.ssafy.com/s05-webmobile2-sub3/S05P13B307.git>
+$ git clone <https://github.com/jjuyeon/LinkedBook.git>
 
 // 경로 변경
 $ cd S05P13B307/backend
