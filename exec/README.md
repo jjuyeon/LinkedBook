@@ -23,7 +23,7 @@ $ sudo apt-get install nginx
 ```
 - Move LinkedBook's build file to Nginx root directory(/usr/share/nginx/html)
 ```
-$ cd S05P13B307/front
+$ cd LinkedBook/front
 
 // npm package install
 $ npm install
@@ -136,7 +136,7 @@ server:
 ## 5. Setup Web Application Server
 - Before deploying, you have to set application.yml in your project
 ```
-$ cd S05P13B307/backend
+$ cd LinkedBook/backend
 
 $ chmod +x gradlew
 
