@@ -22,10 +22,10 @@
 ### 1. Clone this repository
 ```
 // 레포지토리 클론
-$ git clone <https://lab.ssafy.com/s05-webmobile2-sub3/S05P13B307.git>
+$ git clone <https://github.com/jjuyeon/LinkedBook.git>
 
 // 경로 변경
-$ cd S05P13B307/backend
+$ cd LinkedBook/backend
 ```
 
 ### 2. Setup application.yml
@@ -84,14 +84,14 @@ server:
 > Right-click on the project folder - [Run As] - [Spring Boot App] 
 
 ## ✔ Tech Stack
-| Usage               | Stack                    |
-| ------------------- | ------------------------ |
-| `Spring Boot`       | Backend Framework        |
-| `Spring Data JPA`   | JPA Library(Module)      |
-| `Spring Security`   | Authentication Framework |
-| `Querydsl`          | Domain Specific Language |
-| `MySQL`             | Database                 |
-| `JWT`               | JSON Web Token           |
+| Usage             | Stack                    |
+| ----------------- | ------------------------ |
+| `Spring Boot`     | Backend Framework        |
+| `Spring Data JPA` | JPA Library(Module)      |
+| `Spring Security` | Authentication Framework |
+| `Querydsl`        | Domain Specific Language |
+| `MySQL`           | Database                 |
+| `JWT`             | JSON Web Token           |
 
 ## ✔ Project Structure
 - `src/` 하위 폴더들은 다음과 같은 역할을 한다.
