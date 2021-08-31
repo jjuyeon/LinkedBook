@@ -1,9 +1,9 @@
 import S3 from "react-aws-s3";
 
 const config = {
-  bucketName: "linkedbook",
-  dirName: "images" /* optional */,
-  region: "ap-northeast-2",
+  bucketName: "{your_bucketName}",
+  dirName: "{your_dirName}" /* optional */,
+  region: "{your_region}",
   accessKeyId: "{your_accessKeyId}",
   secretAccessKey: "{your_secretAccessKey}",
 };
