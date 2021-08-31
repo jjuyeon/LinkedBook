@@ -4,8 +4,8 @@ const config = {
   bucketName: "linkedbook",
   dirName: "images" /* optional */,
   region: "ap-northeast-2",
-  accessKeyId: "accessKeyId",
-  secretAccessKey: "secretAccessKey",
+  accessKeyId: "{your_accessKeyId}",
+  secretAccessKey: "{your_secretAccessKey}",
 };
 
 const ReactS3Client = new S3(config);
